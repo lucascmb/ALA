@@ -8,7 +8,9 @@ clc //limpa a tela do console
 //A = [1 0 -1; 0 3 7; 5 -2 1]; //linhas espaçadas por ponto e vírgula
 b = [0;7;6];                 //e colunas separadas por espaços ou vírgulas
 //A = [0 0 -2; 2 4 -10; 2 5 1];
-A = [0 3 1; 2 -2 1; 1 5 5/2];
+//A = [0 3 1; 2 -2 1; 1 5 5/2];
+A = [1 5 4 ; 2 3 6 ; 0 4 7];
+
 
 //A = input('Entre com a matriz A')
 //b = input('Entre com o vetor b')
@@ -99,8 +101,8 @@ for p = 1:lnn
 end
 
 
-//disp('Matriz Final Aumentada: ')
-//disp([A b])
+disp('Matriz Final Aumentada: ')
+disp([A b])
 
 
 

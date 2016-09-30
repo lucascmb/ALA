@@ -9,7 +9,8 @@ void revelaResultado (float **, float *, int , int );
 int main (void){
 
 	float **A, *B;
-	int numeroLinhas, numeroColunas, i, j, h,  linha, linhasNaoNulas, linhaPivo, colunaPivo, coluna, auxiliar, pivo, multiplicador;
+	int numeroLinhas, numeroColunas, i, j, h,  linha, linhasNaoNulas, linhaPivo, colunaPivo, coluna;
+	float auxiliar, pivo, multiplicador;
 
 	printf("Qual o tamanho da sua matriz ? Digite primeiro o número de linha depois o de \n");
 	scanf("%d %d", &numeroLinhas, &numeroColunas);
@@ -114,19 +115,15 @@ void revelaResultado(float **A, float *B, int n, int m){
 
 	int i, j;
 
-	printf("\nA Matriz A Final A ficou : \n\n");
+	printf("\n   A Matriz Final Aumentada Ficou : \n\n");
 
 	for(i = 0 ; i < n ; i++){
+		printf("  ");
 		for(j = 0 ; j < m ; j++){
-			printf("   %f", A[i][j]);
+			printf("   %3.3f", A[i][j]);
 		}
+		printf("   %3.3f", B[i]);
 		printf("\n");
-	}
-
-	printf("\n\nE a Matriz B Final ficou : \n\n");
-
-	for(i = 0 ; i < n ; i++){
-		printf("   %f\n", B[i]);
 	}
 
 	printf("\n\n");
