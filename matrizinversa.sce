@@ -6,9 +6,9 @@ clear //limpa a memoria do scilab
 clc //limpa a tela do console
 
 //A = [1 0 -1; 0 3 7; 5 -2 1]; //linhas espaçadas por ponto e vírgula
-//A = [0 0 -2; 2 4 -10; 2 5 1];
+A = [0 0 -2; 2 4 -10; 2 5 1];
 //A = [0 3 1; 2 -2 1; 1 5 5/2];
-A = [2, 5, 8 ; 5 11/2 6 ; 0 1 5/7]
+//A = [2, 5, 8 ; 5 11/2 6 ; 0 1 5/7]
 
 //A = input('Entre com a matriz A')
 //b = input('Entre com o vetor b')
